@@ -27,3 +27,5 @@ In this process, I did the following optimizations...
 * Updated the copyright date to 2021.
 
 * Since we have different font references on the page, creating simple font-only classes allows us to have more global control over the font references. There are two font groupings, lead by "Trebuchet MS" in one reference and "Gill Sans" in the other reference. Mac OS X users do see Trebuchet MS in browsers. It’s a standard Mac OS X font, it’s not only on Windows machines. This will be updated and used for headers and footers. Added Helvetica to both references to allow another font for MacOS. The primary font is "Gill Sans" which will be added to a global body tag to simplify usage.
+
+* Added link to the "logo" and included tabindex property to help people with accessibility navigate between the links.
