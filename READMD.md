@@ -23,3 +23,7 @@ In this process, I did the following optimizations...
 * Fixing the naming of the anchor links to the ids in the articles below.
 
 * Working through optimizing the article styles. There were multiple identical references positioning each of the main article elements on the page. Grouping these elements together will reduce file size and simplify future updates.
+
+* Updated the copyright date to 2021.
+
+* Since we have different font references on the page, creating simple font-only classes allows us to have more global control over the font references. There are two font groupings, lead by "Trebuchet MS" in one reference and "Gill Sans" in the other reference. Mac OS X users do see Trebuchet MS in browsers. It’s a standard Mac OS X font, it’s not only on Windows machines. This will be updated and used for headers and footers. Added Helvetica to both references to allow another font for MacOS. The primary font is "Gill Sans" which will be added to a global body tag to simplify usage.
